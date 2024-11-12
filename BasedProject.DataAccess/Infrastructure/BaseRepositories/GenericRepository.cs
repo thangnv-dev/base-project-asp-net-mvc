@@ -30,7 +30,7 @@ namespace BasedProject.DataAccess.Infrastructure.BaseRepositories
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Update(entity);
         }
 
         public int SaveChanges()
